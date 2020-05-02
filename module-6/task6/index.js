@@ -2,7 +2,7 @@ const m = function(a, b) {
     mul();
 
     function mul() {
-        console.log(a + b);
+        return a + b;
     };
 
 };

@@ -1,5 +1,5 @@
 const operation = function(m, n, o) {
     o = m + n;
-    console.log(m * n * o);
+    return m * n * o;
 };
-operation(1, 3);
+console.log(operation(1, 3));
